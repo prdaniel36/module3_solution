@@ -1,0 +1,126 @@
+
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #b2b2b2;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #800000;
+  border-radius: 0;
+  border: 0;
+  min-height: 70px;
+}
+
+.navbar-brand {
+  padding-top: 20px;
+  margin-top: 0px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  /*font-family: 'Lora', serif;*/
+  color: white;
+  font-size: 2.0em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 15px;
+  line-height: .75;
+}
+
+.navbar-toggle {
+	margin-top: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #fff;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.collapsable-nav{
+	background: #ffcccc;
+}
+#nav-list {
+  margin-top: 20px;
+  background: #ffcccc;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #ff6666;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+
+ #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+ }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    align-content: center;
+    margin-right: 5px;
+ }
+
+
+/** ----  BODY ---- **/
+
+.body-hdr-2 {
+	color: #4d0000;
+	font-weight: bold;
+	font-size: 2.5em;
+	margin-bottom: 50px;
+}
+
+div.box-text {
+	position: relative;
+	background-color: #ffe6e6;
+	height: 500px;
+	margin-bottom: 25px;
+	border-radius:  5px;
+}
+
+div.box-text :hover{
+	color: navy;
+}
+
+h3.menu-item-label {
+	text-align: center;
+	color: #404040;
+	padding-top: 20px;
+	font-size:  1.5em;
+	font-weight: bold;
+}
+
+p.menu-item-desc {
+	text-align: left;
+	color: #404040;
+	margin: auto;
+	font-size: 1em;
+	font-weight: normal;
+	padding: 20px;
+}
+
+.return-to-top {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	text-align: right;
+	padding-right: 10px;
+	font-size: .8em;
+}
